@@ -1,0 +1,115 @@
+body{
+    background-color: #f1f9f9;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+    /* margin-bottom: 10px; */
+}
+
+.navigation {
+    background: orange;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.navigation > .nav-link {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #00cc00;
+    border: solid 1px #333;
+    padding: 9px;
+}
+
+.nav-link:hover {
+    background-color: orange;
+    color: black;
+}
+
+.navigation:after {
+    content: "This is the navigation...";
+}
+
+/*.navigation:before {
+    content: "This is the navigation...";
+}*/
+
+#register {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #00cc00;
+    border: solid 1px #333;
+    padding: 9px;
+}
+
+#register:hover {
+    background-color: blue;
+    color: bisque;
+}
+
+h2+h4 {
+    color: purple;
+}
+
+.bg-img {
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.text-primary {
+    color: blue;
+}
+
+.text-danger {
+    color: #ff0000;
+}
+
+.text-success {
+    color: green;
+}
+
+.font-weight-bold {
+    font-weight: bolder;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    background-color: #999;
+    color: white;
+    padding: 10px;
+}
+/* FORM DESIGN.... */
+
+.form-control, #terms, input[type="submit"] {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-control:focus {
+    background-color: pink;
+}
+.btn {
+    border: none;
+}
+
+.btn-default {
+    background-color: orange;
+    outline: 2px solid green;
+    border: 3px solid white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.btn-default:hover {
+    background-color: #0C0;
+    color: white;
+}

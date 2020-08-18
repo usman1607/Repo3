@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+        <link rel="stylesheet" type="text/css" href="css/page.css">
+    </head>
+    <body class="bg-img">
+        <main>
+
+            <nav class="navigation">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="register.html" class="nav-link ">Register</a>
+                <a href="contact.html" class="nav-link">Contact Us</a>
+            </nav>
+            <h2>Registration Form</h2>
+            <h4>Please fill the form below to register with us.</h4>
+            <form>
+                <label for="name">Full Name</label>
+                <input type="text" name="name" id="name" class="form-control">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="form-control">
+
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender" class="form-control">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Rather not say">Rather not say</option>
+                </select>
+                <div id="terms">
+                    <lable>I accept all the term and conditions</lable>
+                    <input type="checkbox" name="terms">Yes
+                    <input type="checkbox" name="terms">No
+                </div>
+
+                <input type="submit" value="Complete Registration" class=" btn btn-default">
+            </form>
+        </main>
+
+    </body>
+    <footer> &copy; Usman Codelearnershub 2020 &ndash; All right reservered...</footer>
+</html>
